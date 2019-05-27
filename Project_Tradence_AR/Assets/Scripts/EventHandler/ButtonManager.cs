@@ -10,7 +10,7 @@ public class ButtonManager : MonoBehaviour
 
     public void ChangeScene()
     {
-        SceneManager.LoadScene("SceneName");
+        SceneManager.LoadScene(SceneName);
     }
 
     public void OnClickQuit()
